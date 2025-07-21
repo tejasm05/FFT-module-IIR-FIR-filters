@@ -1,0 +1,374 @@
+$date
+	Sun Apr 06 17:16:21 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module tb_ $end
+$var wire 16 ! yreal3 [15:0] $end
+$var wire 16 " yreal2 [15:0] $end
+$var wire 16 # yreal1 [15:0] $end
+$var wire 16 $ yreal0 [15:0] $end
+$var wire 16 % yimag3 [15:0] $end
+$var wire 16 & yimag2 [15:0] $end
+$var wire 16 ' yimag1 [15:0] $end
+$var wire 16 ( yimag0 [15:0] $end
+$var wire 1 ) validout $end
+$var parameter 32 * CLK_PERIOD $end
+$var reg 1 + clk $end
+$var reg 8 , inputimag [7:0] $end
+$var reg 8 - inputreal [7:0] $end
+$var reg 1 . rst $end
+$var reg 1 / validinput $end
+$scope module uut $end
+$var wire 1 + clk $end
+$var wire 1 . rst $end
+$var wire 1 / valid_in $end
+$var wire 8 0 xi [7:0] $end
+$var wire 8 1 xr [7:0] $end
+$var reg 1 2 input_ready $end
+$var reg 2 3 sample_cnt [1:0] $end
+$var reg 1 4 stage2_init $end
+$var reg 1 ) valid_out $end
+$var reg 16 5 yi0 [15:0] $end
+$var reg 16 6 yi1 [15:0] $end
+$var reg 16 7 yi2 [15:0] $end
+$var reg 16 8 yi3 [15:0] $end
+$var reg 16 9 yr0 [15:0] $end
+$var reg 16 : yr1 [15:0] $end
+$var reg 16 ; yr2 [15:0] $end
+$var reg 16 < yr3 [15:0] $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 = i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 16 > \stage1_r[0] [15:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 16 ? \stage1_r[1] [15:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 16 @ \stage1_r[2] [15:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 16 A \stage1_r[3] [15:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 16 B \stage2_r[0] [15:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 16 C \stage2_r[1] [15:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 16 D \stage2_r[2] [15:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 16 E \stage2_r[3] [15:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 8 F \xi_buf[0] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 8 G \xi_buf[1] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 8 H \xi_buf[2] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 8 I \xi_buf[3] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 8 J \xr_buf[0] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 8 K \xr_buf[1] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 8 L \xr_buf[2] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_ $end
+$scope module uut $end
+$var reg 8 M \xr_buf[3] [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10100 *
+$end
+#0
+$dumpvars
+b0 M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+b100 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+04
+b0 3
+02
+bx 1
+bx 0
+1/
+x.
+bx -
+bx ,
+0+
+x)
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#50
+1.
+#100
+1+
+#150
+0.
+#200
+0+
+#250
+b0 ,
+b0 0
+b1100100 -
+b1100100 1
+#300
+b1 3
+b0 F
+b1100100 J
+1+
+#400
+0+
+#450
+b1000111 ,
+b1000111 0
+b1000111 -
+b1000111 1
+#500
+b10 3
+b1000111 G
+b1000111 K
+1+
+#600
+0+
+#650
+b1100100 ,
+b1100100 0
+b0 -
+b0 1
+#700
+b11 3
+b1100100 H
+b0 L
+1+
+#800
+0+
+#850
+b1000111 ,
+b1000111 0
+b10111001 -
+b10111001 1
+#900
+12
+b0 3
+b1000111 I
+b10111001 M
+1+
+#950
+0/
+#1000
+0+
+#1100
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b0 E
+b0 C
+b0 D
+b0 B
+1+
+#1200
+0+
+#1300
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b101010 %
+b101010 8
+b1100100 !
+b1100100 <
+b1111111111010110 &
+b1111111111010110 7
+b1100100 "
+b1100100 ;
+b1111111100001110 '
+b1111111100001110 6
+b1100100 #
+b1100100 :
+b11110010 (
+b11110010 5
+b1100100 $
+b1100100 9
+b1100100 E
+b1100100 C
+b1100100 D
+b1100100 B
+1+
+#1400
+0+
+#1500
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b1100100 E
+b1100100 C
+b1100100 D
+b1100100 B
+1+
+#1600
+0+
+#1700
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b1100100 E
+b1100100 C
+b1100100 D
+b1100100 B
+1+
+#1800
+0+
+#1900
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b1100100 E
+b1100100 C
+b1100100 D
+b1100100 B
+1+
+#2000
+0+
+#2100
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b1100100 E
+b1100100 C
+b1100100 D
+b1100100 B
+1+
+#2200
+0+
+#2300
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b1100100 E
+b1100100 C
+b1100100 D
+b1100100 B
+1+
+#2400
+0+
+#2500
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b1100100 E
+b1100100 C
+b1100100 D
+b1100100 B
+1+
+#2600
+0+
+#2700
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b1100100 E
+b1100100 C
+b1100100 D
+b1100100 B
+1+
+#2800
+0+
+#2900
+b10001110 A
+b1100100 @
+b0 ?
+b1100100 >
+b1100100 E
+b1100100 C
+b1100100 D
+b1100100 B
+1+
+#2950
