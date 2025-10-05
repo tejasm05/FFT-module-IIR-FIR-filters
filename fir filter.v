@@ -10,7 +10,7 @@ module fir_filter_nonpipelined(
     
     reg signed [16:0] x_shift_reg [0:122];
     reg signed [33:0] mult_out [0:122];
-    reg signed [160:0] sum;
+    reg signed [42:0] sum;
     integer i;
     
     always @(posedge clk or posedge reset) begin
@@ -32,8 +32,8 @@ module fir_filter_nonpipelined(
             for(i = 0; i <= 122; i = i + 1) begin
                 mult_out[i] = $signed(h[i]) * $signed(x_shift_reg[i]);
             end
-            sum = mult_out[0] + mult_out[1];
-            for(i = 2; i <= 122; i = i + 1) begin
+            
+            for(i = 0; i <= 122; i = i + 1) begin
             sum = sum + mult_out[i];
             end
 
@@ -159,5 +159,6 @@ module fir_filter_nonpipelined_tb();
         $finish;
     end
 endmodule
+
 
 
