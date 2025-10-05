@@ -29,13 +29,12 @@ module fir_filter_nonpipelined(
             // Perform filtering computation in one clock cycle
             
             sum = 0;
-            #1;
             for(i = 0; i <= 122; i = i + 1) begin
                 mult_out[i] = $signed(h[i]) * $signed(x_shift_reg[i]);
             end
-            #2; sum = mult_out[0] + mult_out[1];
+            sum = mult_out[0] + mult_out[1];
             for(i = 2; i <= 122; i = i + 1) begin
-                #2; sum = sum + mult_out[i];
+            sum = sum + mult_out[i];
             end
 
             y_out <= sum;
@@ -160,3 +159,4 @@ module fir_filter_nonpipelined_tb();
         $finish;
     end
 endmodule
+
