@@ -20,13 +20,13 @@ module fir_filter_nonpipelined(
             end
             y_out <= 160'b0;
         end else begin
-            // Shift the input values
+
+            
             for(i = 122; i > 0; i = i - 1) begin
                 x_shift_reg[i] <= x_shift_reg[i - 1];
             end
             x_shift_reg[0] <= x_in;
             
-            // Perform filtering computation in one clock cycle
             
             sum = 0;
             for(i = 0; i <= 122; i = i + 1) begin
@@ -159,4 +159,5 @@ module fir_filter_nonpipelined_tb();
         $finish;
     end
 endmodule
+
 
